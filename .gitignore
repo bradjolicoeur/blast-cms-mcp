@@ -1,0 +1,48 @@
+# .gitignore for Visual Studio, VSCode, and .NET projects
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.sdf
+*.opensdf
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Others
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.dotCover
+*.dotCover.config
+TestResults/
+*.vs/
